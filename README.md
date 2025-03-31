@@ -25,6 +25,29 @@ RideLink/
 
 ## 快速开始
 
+安装依赖：
+
+```bash
+# 前端依赖(如果已经有vue环境可以跳过)
+# 检查 Node.js 和 npm 版本
+node -v
+npm -v
+# 安装 Vue CLI
+npm install -g @vue/cli
+# 安装 axios
+npm install axios
+
+# 后端依赖
+# 方法1：使用 requirements.txt
+pip install -r requirements.txt
+
+# 方法2：如果方法1失败，可以手动安装核心依赖
+# 安装 Flask 相关依赖
+pip install flask
+pip install flask_sqlalchemy
+pip install flask_cors
+```
+
 启动 Flask 后端：
 
 ```bash
